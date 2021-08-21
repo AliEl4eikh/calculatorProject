@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding : 0;
+    margin: 0;
+}
+
+.calc {
+    width: 400px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.screen {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 5px;
+}
+
+.calc-button-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.calc-key {
+    background-color: #eee;
+    height: 100px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.calc-key:hover {
+    background-color: rgb(177, 168, 168);
+}
+
+.calc-key:active {
+    background-color: rgba(207, 178, 178, 0.781);
+}
+
+.calc-key:last-child {
+    background-color: #df974c;
+    color: white;
+}
+
+.calc-key:last-child:hover {
+    background-color: #cf9868
+}
+
+.calc-key:last-child:active {
+    background-color: #f3af66;
+}
+
+.triple {
+    width: 74.8%;
+}
+
+.double {
+    width: 49.5%;
+}
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+.row {
+    width : 250px;
+    height: 50px;
+    display: flex;
+}
+
+.screen-reader {
+    text-align: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.calc-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.calc-key {
+    text-align: center;
+    vertical-align: top;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    width: 24%;
+    border: none;
+    border-radius: 0;
+
+}
+
+.calc-key:hover {
+    background-color: burlywood;
+    cursor: pointer;    
+}
+
+.calc-key:active {
+    background-color: #bbbcbe;
+}
+
+.full {
+    background-color: black;
+    color: white;
+}
+
+
+.half {
+    border : 1px solid black;
+    width : 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+
+}
+
+.third {
+    border : 1px solid black;
+    width : 25%;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.one{
+    width: 75%;
+    border: 1px solid black;
+}
+
+.body {
+    display: flex;
+    justify-content: flex-end;
+}
+.quarter {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #eee;
+}
+
+.operator {
+    background-color: rgb(238, 174, 79);
+} */

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calculator.css">
+   
+</head>
+<body>
+<div class="calc">
+    <section class="screen">
+        0
+    </section>
+    <section class="calc-buttons">
+    <div class="calc-button-row">
+        <button class="calc-key double" data-action="clear">C</button>
+        <button class="calc-key" data-action="backspace">←</button>
+        <button class="calc-key" data-action="divide">÷</button>
+    </div>
+
+    <div class="calc-button-row">
+        <button class="calc-key">7</button>
+        <button class="calc-key">8</button>
+        <button class="calc-key">9</button>
+        <button class="calc-key" data-action="multiply">&times;</button>
+    </div>
+
+    <div class="calc-button-row">
+        <button class="calc-key">4</button>
+        <button class="calc-key">5</button>
+        <button class="calc-key">6</button>
+        <button class="calc-key" data-action="subtract">-</button>
+    </div>
+
+    <div class="calc-button-row">
+        <button class="calc-key">1</button>
+        <button class="calc-key">2</button>
+        <button class="calc-key">3</button>
+        <button class="calc-key" data-action="add">+</button>
+    </div>
+
+    <div class="calc-button-row">
+        <button class="calc-key triple">0</button>
+        <button class="calc-key" data-action="calculate">=</button>
+    </div>
+    </section>
+</div>
+
+    <script src="./calculator.js"></script>
+</body>
+</html>
